@@ -288,3 +288,48 @@ footer {
     padding-left: 5%;
   }
 }
+
+@media (max-width: 400px) {
+  .hero-image img {
+    width: 280px;
+  }
+  .hero-image {
+    padding-top: 50px;
+    padding-left: 13%;
+    padding-right: 0;
+  }
+  header {
+    height: 115vh;
+  }
+  .team-photo img {
+    width: 260px;
+  }
+  .part2 {
+    height: 85vh;
+  }
+  .address {
+    padding-left: 0;
+    line-height: 35px;
+  }
+  .address td {
+    padding-left: 35px;
+    padding-right: 0px;
+  }
+  .map iframe {
+    width: 300px;
+    padding-right: 0;
+  }
+  .part3 {
+    height: 120vh;
+  }
+  .messageForm td {
+    padding-right: 0;
+    padding-left: 0;
+  }
+  .part4 {
+    height: 110vh;
+  }
+  .messageForm {
+    padding-bottom: 5rem;
+  }
+}
