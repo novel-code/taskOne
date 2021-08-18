@@ -246,6 +246,15 @@ footer {
   color: rgb(51, 51, 51);
 }
 
+.part4 form button {
+  background-image: linear-gradient(
+    to right,
+    rgba(238, 223, 226, 255),
+    rgba(238, 226, 226, 255)
+  ) !important;
+  outline: none;
+}
+
 @media (max-width: 690px) {
   .hero {
     flex-direction: column;

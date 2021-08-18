@@ -9,18 +9,7 @@
   </head>
   <body>
     <header id="home">
-      <div class="top-bar">
-        <div class="first">
-          <h2>Cacto Mate</h2>
-        </div>
-        <nav class="second">
-          <ul class="navigation-bar">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-      </div>
+      <?php include "header.html" ?>
       <div class="hero">
         <div class="hero-text">
           <p class="header">Getting rid of cactus made easy.</p>
@@ -139,10 +128,10 @@
                 <td><label>How did you find us?</label></td>
                 <td>
                   <select>
-                    <option>friends</option>
-                    <option>Search Engine</option>
-                    <option>Advertisement</option>
-                    <option>Other</option>
+                    <option value="friends">friends</option>
+                    <option value="SearchEngine">Search Engine</option>
+                    <option value="Advertisement">Advertisement</option>
+                    <option value="Other">Other</option>
                   </select>
                 </td>
               </tr>
@@ -154,16 +143,15 @@
                 <td><label>Drop us a line.</label></td>
                 <td><textarea placeholder="Your message"></textarea></td>
               </tr>
+              <tr>
+<td>              <button class="call-to-action" type="submit">Send it!</button>
+</td>
+              </tr>
             </tbody>
           </table>
         </form>
       </div>
-      <footer>
-        <div>
-          <p>Copyright &copy; 2021 by Cacto Mate. All rights reserved.</p>
-          <p>Designed by: Muzzammil</p>
-        </div>
-      </footer>
+      <?php include "footer.html" ?>
     </section>
   </body>
 </html>
