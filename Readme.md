@@ -1,12 +1,16 @@
 * This is a simple task project
 
 Tasks for Level One :
+
 ● Create a static website for a company with the following html pages containing
 mentioned elements
+
 1. Home
+
 2. About
 a. Introduction
 b. Team
+
 3. Contact
 a. Address
 b. Map
